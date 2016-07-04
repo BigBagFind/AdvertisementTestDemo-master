@@ -11,7 +11,7 @@
 TggCycleAdView *view = [TggCycleAdView cycleAdViewWithUrlArray:urls Frame:(CGRect){0,0,kScreenWidth,250} DidSelectItemBlock:^(NSUInteger index) {
         
 }];
-[view setTimed:YES WithTimerInterval:5.0];
-[self.view addSubview:view];
+###[view setTimed:YES WithTimerInterval:5.0];
+###[self.view addSubview:view];
 #### 先自己用用看
 
