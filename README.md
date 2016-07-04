@@ -8,7 +8,7 @@
 
 ##内容简介：
 ### 代码：
-TggCycleAdView *view = [TggCycleAdView cycleAdViewWithUrlArray:urls Frame:(CGRect){0,0,kScreenWidth,250} DidSelectItemBlock:^(NSUInteger index) {
+###TggCycleAdView *view = [TggCycleAdView cycleAdViewWithUrlArray:urls Frame:(CGRect){0,0,kScreenWidth,250} DidSelectItemBlock:^(NSUInteger index) {
         
 }];
 ###[view setTimed:YES WithTimerInterval:5.0];
