@@ -7,12 +7,11 @@
 ### 4.一步初始化init搞定
 
 ##内容简介：
-### 第一步：
-####- (instancetype)initWithFrame:(CGRect)frame ContentImages:(NSArray *)contentImages;//初始化一步搞定循环广告
-### 第二步：
-####  - (void)setisTimed:(BOOL)isTimed WithTimerInterval:(CGFloat)timerInterval;//是否开启自动化轮播且设置时间,默认为5.0秒
+### 代码：
+TggCycleAdView *view = [TggCycleAdView cycleAdViewWithUrlArray:urls Frame:(CGRect){0,0,kScreenWidth,250} DidSelectItemBlock:^(NSUInteger index) {
+        
+}];
+[view setTimed:YES WithTimerInterval:5.0];
+[self.view addSubview:view];
+#### 先自己用用看
 
-### 第三步：
-#### 简简单单自己用
-
-![](http://chuantu.biz/t2/20/1448336111x-1376440232.png)
